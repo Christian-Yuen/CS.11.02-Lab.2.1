@@ -1,18 +1,16 @@
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
-
     @org.junit.jupiter.api.Test
-    void main() {
+    void Main() {
     }
-
     @org.junit.jupiter.api.Test
     void add() {
         assertEquals(12, Main.add(5,7));
     }
 
     @org.junit.jupiter.api.Test
-    void addTwo() {
+    void addtwo() {
         assertEquals(24, Main.add(5,7,6,6));
     }
 
