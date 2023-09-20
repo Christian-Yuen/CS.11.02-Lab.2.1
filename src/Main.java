@@ -13,7 +13,10 @@ public class Main {
 
     // 2. add
     public static int add(int a, int b, int c, int d) {
-        return a + b + c + d;
+        int x = add(a, b);
+        int y = add(c,d);
+        int z = add(x,y);
+        return z;
     }
 
     // 3. morningGreeting
